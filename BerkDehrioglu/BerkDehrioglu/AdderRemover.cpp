@@ -2,7 +2,7 @@
 
 Node::Node(int number)
 {
-	this->number_;
+	this->number_ = number;
 	this->next_ =  nullptr ;
 	this->prev_ = nullptr;
 }
@@ -37,14 +37,14 @@ void AdderRemover::display()
 	
 	Node* traverse;
 	traverse = this->head_;
-	std::cout << this->name_ << " | NodeCount:" << this->nodeCount_ << std::endl;
+	std::cout << std::endl << std::endl << this->name_ << " | NodeCount:" << this->nodeCount_ << std::endl;
 	std::cout << " -----" << std::endl;
 	if (nodeCount_ == 0)
 	{
 		std::cout << " There is no element to print." << std::endl;
 	}
 	while (traverse) {
-		std::cout << "\n" << traverse->number_ << std::endl;
+		std::cout << "\n" << traverse->number_ ;
 		traverse = traverse->next_;
 	}
 }
@@ -59,9 +59,19 @@ void AdderRemover::removeAll()
 		delete traverse;
 		traverse = head_;
 	}
+	this->nodeCount_ = 0;
 }
 
 void AdderRemover::traverse()
 {
-
+	std::cout << std::endl << std::endl << this->name_ << " | NodeCount:" << this->nodeCount_ << std::endl;
+	std::cout << " -----" << std::endl;
+	if (nodeCount_ == 0)
+	{
+		std::cout << " There is no element to print." << std::endl;
+	}
+	for (int i = 0; i < this->nodeCount_; i++)
+	{
+		std::cout << std::endl << traverser_->next();
+	}
 }

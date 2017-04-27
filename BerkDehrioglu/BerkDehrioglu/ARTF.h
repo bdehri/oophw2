@@ -4,7 +4,9 @@ class ARTF :
 	public ARTraverser
 {
 public:
-	ARTF();
+	ARTF(Node* current);
 	~ARTF();
+	bool hasNode(void);
+	int next(void);
 };
 

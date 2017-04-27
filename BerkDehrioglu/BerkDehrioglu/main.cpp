@@ -37,6 +37,7 @@ int main(int argc, char **argv) {
 		myList[j]->setTraverser();
 		myList[j]->traverse();
 	}
+	std::cout << std::endl;
 	system("PAUSE");
 	return 0;
 }

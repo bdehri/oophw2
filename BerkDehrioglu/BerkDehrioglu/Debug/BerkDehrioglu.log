@@ -1,7 +1,3 @@
-﻿  FAFR.cpp
-d:\users\26023412\documents\visual studio 2015\projects\berkdehrioglu\berkdehrioglu\fafr.cpp(46): error C2259: 'ARTF': cannot instantiate abstract class
-  d:\users\26023412\documents\visual studio 2015\projects\berkdehrioglu\berkdehrioglu\fafr.cpp(46): note: due to following members:
-  d:\users\26023412\documents\visual studio 2015\projects\berkdehrioglu\berkdehrioglu\fafr.cpp(46): note: 'bool ARTraverser::hasNode(void)': is abstract
-  d:\users\26023412\documents\visual studio 2015\projects\berkdehrioglu\berkdehrioglu\adderremover.h(23): note: see declaration of 'ARTraverser::hasNode'
-  d:\users\26023412\documents\visual studio 2015\projects\berkdehrioglu\berkdehrioglu\fafr.cpp(46): note: 'Node *ARTraverser::next(void)': is abstract
-  d:\users\26023412\documents\visual studio 2015\projects\berkdehrioglu\berkdehrioglu\adderremover.h(24): note: see declaration of 'ARTraverser::next'
+﻿  main.cpp
+  BerkDehrioglu.vcxproj -> D:\Users\26023412\Documents\Visual Studio 2015\Projects\oophw2\BerkDehrioglu\Debug\BerkDehrioglu.exe
+  BerkDehrioglu.vcxproj -> D:\Users\26023412\Documents\Visual Studio 2015\Projects\oophw2\BerkDehrioglu\Debug\BerkDehrioglu.pdb (Full PDB)

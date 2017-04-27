@@ -21,7 +21,7 @@ public:
 	ARTraverser();
 	~ARTraverser();
 	virtual bool hasNode(void) = 0;
-	virtual Node* next(void) = 0;
+	virtual int next(void) = 0;
 };
 
 
